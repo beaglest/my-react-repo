@@ -3,8 +3,10 @@ import Person from './Person'
 
 function App() {
   return (
-    <div className="App">
-      <Person></Person>
+    <div>
+      <Person name='Metin'/>
+      <Person name='Deniz'/>
+      <Person name='Aras'/>
     </div>
   );
 }
