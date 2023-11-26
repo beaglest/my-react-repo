@@ -9,7 +9,7 @@ class Person extends Component {
 
         return(
         <div>
-            <i><h1>Hello {this.props.name}, This is FS Class.</h1></i>
+            <i><h1>Hello {this.props.name}, This is FS Class. Your age is {this.props.age}</h1></i>
             </div>
         )
         // return React.createElement(
